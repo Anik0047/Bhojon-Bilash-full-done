@@ -3,21 +3,21 @@ import { Link } from 'react-router-dom';
 
 const Register = () => {
     return (
-        <div className='shop-container'>
+        <div className='login banner'>
             <div>
                 <h2>Register</h2>
                  <form onSubmit="">
-                 <input type="email" name="" id="" placeholder="Your Email"/>
+                 <input className='input-field' type="email" name="" id="" placeholder="Your Email"/>
                     <br />
-                    <input type="password" name="" id="" placeholder="Your Password"/>
+                    <input className='input-field' type="password" name="" id="" placeholder="Your Password"/>
                     <br />
-                    <input type="password" name="" id="" placeholder="Your Re-enter Password"/>
+                    <input className='input-field' type="password" name="" id="" placeholder="Your Re-enter Password"/>
                     <br />
-                    <input type="submit" value="Submit" />
+                    <input className='btn-login gap' type="submit" value="Submit" />
                  </form>
-                 <p>Already have an acount <Link to="/login">Sign-IN</Link> </p>
-                 <div>------------or-----------</div>
-                <button>Google Sign In </button>
+                 <p> Already have an acount! <Link to="/login"  className='link'> Sign-IN</Link> </p>
+                 <div className='gap'>----------------------or--------------------</div>
+                <button className='btn-login gap'>Google Sign In </button>
             </div>
         </div>
     );

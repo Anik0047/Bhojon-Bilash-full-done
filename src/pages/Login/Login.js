@@ -16,19 +16,19 @@ const Login = () => {
         })
     }
     return (
-        <div className='login'>
+        <div className='login banner'>
             <div>
                 <h2>Login</h2>
                 <form onSubmit="">
-                    <input type="email" name="" id="" placeholder="Your Email"/>
+                    <input className='input-field' type="email" name="" id="" placeholder="Your Email"/>
                     <br />
-                    <input type="password" name="" id="" placeholder="Your Password"/>
+                    <input className='input-field' type="password" name="" id="" placeholder="Your Password"/>
                     <br />
-                    <input type="submit" value="Submit" />
+                    <input className='btn-login gap' type="submit" value="Submit" />
                 </form>
-                <p>new to Bhojon Bilash? <Link to="/register">Create Acount</Link></p>
-                <div>------------or-----------</div>
-                <button onClick={handleGoogleLogin}>Google Sign In </button>
+                <p>new to Bhojon Bilash? <Link to="/register" className='link'>Create Acount</Link></p>
+                <div className='gap'>----------------------or--------------------</div>
+                <button onClick={handleGoogleLogin} className='btn-login gap'>Google Sign In </button>
             </div>
         </div>
     );

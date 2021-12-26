@@ -38,7 +38,7 @@ const OrderReview = () => {
             </div>
             <div className='cart-container'>
                 <Cart cart={cart}>
-                    <button onClick={handlePlaceOrder} >Place Order</button>
+                    <button onClick={handlePlaceOrder} className='btn'>Place Order</button>
                 </Cart>
             </div>
 

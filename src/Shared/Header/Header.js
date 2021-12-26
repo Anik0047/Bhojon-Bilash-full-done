@@ -13,8 +13,8 @@ const Header = () => {
                 </div>
                 <div className="site-links">
                     <ul>
-                        <li><NavLink to="/shop">Shop</NavLink></li>
-                        <li><NavLink to="/review">Order Review</NavLink></li>
+                        <li><NavLink to="/shop">Home</NavLink></li>
+                        <li><NavLink to="/review">Order</NavLink></li>
                         <li><NavLink to="#">Contact</NavLink></li>
                         <li>{user.email && <span>{user.displayName}</span>}</li>
                         <li>{user.email ?

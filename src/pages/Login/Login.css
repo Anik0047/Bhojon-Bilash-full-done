@@ -4,3 +4,40 @@
     justify-content: center;
     align-items: center;
 }
+.btn-login{
+    background-color: #F1C65B;
+    color: black;
+    width: 250px;
+    border-color: aliceblue;
+    border-radius: 5px;
+}
+.input-field{
+    margin-bottom: 15px;
+    width: 250px;
+    box-shadow: #F1C65B;
+    border-radius: 5px;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+    border-bottom-color: black;
+}
+.gap{
+    margin-bottom: 15px;
+    
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.banner{
+    background: rgba(0, 0, 0, 0.75) url(../../images/banner-image.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
