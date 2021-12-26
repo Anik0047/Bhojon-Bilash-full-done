@@ -1,0 +1,35 @@
+.flex{
+    border: 1px solid rgb(202, 202, 202);
+    text-align: center;
+    padding-bottom: 25px;
+    border-radius: 13px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 0px 4px 0px #9b9b9b;
+    transition: 0.5s;
+}
+.flex:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px 0px #838383;
+}
+.flex img{
+    width: 100%;
+    border-radius: 13px 13px 0px 0px;
+    border: 1px solid white;
+}
+.flex h4{
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn{
+    color: #fff;
+    background-color: rgb(43, 43, 43);
+    width: 150px;
+    border-radius: 30px 0px 30px 0px;
+    transition: 0.5s;
+}
+.btn:hover{
+    color: black;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    width: 165px;
+}
